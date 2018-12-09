@@ -42,4 +42,9 @@ lib_deps =
 monitor_speed = 115200
 ```
 
+Running
+```
+./run_esp32.sh
+```
+
 - [Reference](https://qiita.com/zakkied/items/cbbccdc1be4e4da9f7f9)

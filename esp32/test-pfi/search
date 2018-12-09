@@ -1,0 +1,895 @@
+    1  less get-pip.py 
+    2  vi /etc/init.d/resolvconf 
+    3  sudo vi /etc/network/interfaces
+    4  vi /etc/init.d/resolvconf 
+    5  sudo vi /etc/network/interfaces
+    6  sudo /etc/init.d/networking restart
+    7  ls
+    8  cd Desktop/
+    9  ls
+   10  vi mac.py 
+   11  python3 mac.py 
+   12  vi mac.py 
+   13  ls
+   14  ifconfig
+   15  ping yahoo.com
+   16  ls
+   17  nvidia-smi
+   18  sudo lshw -class processor
+   19  lspci | grep -i nvidia
+   20  pip -v
+   21  pip --version
+   22  python3 -v
+   23  python3 -V
+   24  pip -V
+   25  cd Desktop/
+   26  ls
+   27  less 8.18.18 
+   28  vim 8.18.18 
+   29  ipconfig
+   30  ifconfig
+   31  sudo apt update
+   32  sudo apt upgrade -y
+   33  ls
+   34  sudo apt update
+   35  sudo apt upgrade -y
+   36  ls
+   37  cd Desktop/
+   38  ls 
+   39  less Untitled\ Document2\ 
+   40  less Untitled Document2
+   41  less Untitled Document 2
+   42  vim Untitled\ Document\ 
+   43  cd /tmp/
+   44  curl -O https://repo.anaconda.com/archive/Anaconda3-5.1.0-Linux-x86_64.sh
+   45  sha256sum Anaconda3-5.1.0-Linux-x86_64.sh
+   46  bash Anaconda3-5.1.0-Linux-x86_64.sh
+   47  source ~/.bashrc
+   48  conda list
+   49  conda list | less
+   50  conda search "^python$"
+   51  conda search "^python$" | less
+   52  python -version
+   53  python2 -version
+   54  python3 -version
+   55  python3 --version
+   56  python2 --version
+   57  python --version
+   58  python2 --version
+   59  conda create --name my_env python=3
+   60  source activate my_env
+   61  python3 -version
+   62  python3 --version
+   63  python3 -version
+   64  python --version
+   65  source deactivate
+   66  python --version
+   67  source activate my_env
+   68  python --version
+   69  source deactivate
+   70  conda create --name my_env python=3
+   71  source activate my_env
+   72  python --version
+   73  ls
+   74  python --version
+   75  source deactivate
+   76  python --version
+   77  conda search "^python$" | less
+   78  conda create --name my_env python=3.6.4
+   79  python --version
+   80  conda search "^python$" | less
+   81  conda create --name my_env python=3.6.4
+   82  rm -rf /home/toshi/anaconda3/envs/my_env/
+   83  conda create --name my_env python=3.6.4
+   84  python --version
+   85  source activate my_env
+   86  python --version
+   87  source deactivate
+   88  python --version
+   89  conda create -n my_env36 python=3.6.4
+   90  conda info --envs
+   91  conda install --name my_env35 numpy
+   92  conda install --name my_env36 numpy
+   93  conda create --name my_env python=3 numpy
+   94  conda --version
+   95  conda
+   96  cd Desktop/
+   97  ls
+   98  mkdir github
+   99  cd github/
+  100  ls
+  101  git clone https://github.com/PyDataOkinawa/meetup036.git
+  102  ls
+  103  cd meetup036/
+  104  ls
+  105  cd notebooks/
+  106  ls
+  107  less 1_PyDataOkinawa_OpenCV_ImageProcessing_前半.ipynb 
+  108  ls
+  109  pwd
+  110  cd ..
+  111  ls
+  112  cd data/
+  113  ls
+  114  cp ../../../../Downloads/paolo-nicolello-748218-unsplash.jpg .
+  115  ls
+  116  cp ../../../../Downloads/john-volante-706325-unsplash.jpg .
+  117  ls
+  118  sha256sum Anaconda3-5.1.0-Linux-x86_64.sh
+  119  ls
+  120  sudo apt update
+  121  sudo apt upgrade
+  122  history
+  123  history
+  124  ls
+  125  ifconfig
+  126  ping 10.4.38.35
+  127  ls
+  128  cd Desktop/
+  129  ls
+  130  sh mac2.sh 
+  131  vi mac2.sh 
+  132  sh mac2.
+  133  vi mac2.sh 
+  134  mv mac2.sh mac2.py
+  135  ls
+  136  python mac2.py 
+  137  vi mac2.sh 
+  138  vi mac2.py 
+  139  python mac2.py 
+  140  python3 mac2.py 
+  141  python3 --version
+  142  python --version
+  143  python mac.py 
+  144  vi mac.py 
+  145  python mac2.py 
+  146  vi mac2.py 
+  147  python3 mac2.py 
+  148  vi mac2.py 
+  149  python3 mac2.py 
+  150  vi mac2.py 
+  151  python3 mac2.py 
+  152  vi mac2.py 
+  153  python3 mac2.py 
+  154  vi mac2.py 
+  155  python3 mac2.py 
+  156  vi mac2.py 
+  157  python3 mac2.py 
+  158  vi mac2.py 
+  159  python3 mac2.py 
+  160  vi mac2.py 
+  161  python3 mac2.py 
+  162  vi mac2.py 
+  163  python3 mac2.py 
+  164  vi mac2.py 
+  165  python3 mac2.py 
+  166  vi mac2.py 
+  167  python3 mac2.py 
+  168  vi mac2.py 
+  169  python3 mac2.py 
+  170  vi mac2.py 
+  171  python3 mac2.py 
+  172  vi mac2.py 
+  173  python3 mac2.py 
+  174  vi mac2.py 
+  175  python3 mac2.py 
+  176  vi mac2.py 
+  177  python3 mac2.py 
+  178  vi mac2.py 
+  179  python3 mac2.py 
+  180  vi mac2.py 
+  181  python3 mac2.py 
+  182  vi mac2.py 
+  183  python3 mac2.py 
+  184  vi mac2.py 
+  185  python3 mac2.py 
+  186  vi mac2.py 
+  187  python3 mac2.py 
+  188  vi mac2.py 
+  189  python3 mac2.py 
+  190  vi mac2.py 
+  191  python3 mac2.py 
+  192  vi mac2.py 
+  193  python3 mac2.py 
+  194  vi mac2.py 
+  195  python3 mac2.py 
+  196  vi mac2.py 
+  197  python mac2.py 
+  198  python2 mac2.py 
+  199  vi mac2.py 
+  200  python2 mac2.py 
+  201  python2 mac.py 
+  202  python2 mac2.py 
+  203  python mac2.py 
+  204  python3 mac2.py 
+  205  vi mac2.py 
+  206  vi mac3.py 
+  207  vi mac2.py 
+  208  vi mac.py 
+  209  python mac.py 
+  210  vi mac.py 
+  211  python mac.py 
+  212  vi mac.py 
+  213  python mac.py 
+  214  vi mac.py 
+  215  python mac.py 
+  216  vi mac.py 
+  217  python mac.py 
+  218  vi mac.py 
+  219  vi mac3.py 
+  220  vi mac2.py 
+  221  python3 mac2.py 
+  222  vi mac2.py 
+  223  python3 mac2.py 
+  224  vi mac2.py 
+  225  python3 mac2.py 
+  226  vi mac2.py 
+  227  nmcli dev wifi
+  228  vi mac3.py 
+  229  python3 mac3.py 
+  230  vi mac3.py 
+  231  python3 mac3.py 
+  232  python mac3.py 
+  233  python2 mac3.py 
+  234  vi mac3.py 
+  235  mv mac3.py mac.sh
+  236  sh mac3.py 
+  237  sh mac3.sh
+  238  sh mac.sh
+  239  vi mac2.sh
+  240  vi mac3.sh
+  241  vi mac3.py
+  242  vi mac2.py
+  243  vi mac1.py
+  244  vi mac.py
+  245  mv mac.sh mac2.sh
+  246  sh mac2.sh 
+  247  vi mac2.sh
+  248  sh mac2.sh 
+  249  vi mac2.sh 
+  250  vi mac2.py
+  251  vi mac.sh 
+  252  vi mac.py 
+  253  sh mac2.sh 
+  254  ls
+  255  sudo apt update
+  256  sudo apt upgrade
+  257  sudo apt update
+  258  sudo apt upgrade -y
+  259  ls
+  260  ipconfig
+  261  ifconfig
+  262  route
+  263  ifconfig
+  264  route
+  265  ifconfig
+  266  route
+  267  ls
+  268  ping 10.4.0.0
+  269  ping 10.4.0.0 -b
+  270  ifconfig
+  271  ping 10.4.38.0
+  272  ping 10.4.38.35
+  273  ping 10.4.38.01
+  274  ping 10.4.38.38
+  275  ping 10.4.38.35
+  276  vi /etc/NetworkManager/NetworkManager.conf 
+  277  sudo vi /etc/NetworkManager/NetworkManager.conf 
+  278  service network-manager restart
+  279  ipconfig
+  280  ifconfig
+  281  root
+  282  route
+  283  sudo vi /etc/NetworkManager/NetworkManager.conf 
+  284  service network-manager restart
+  285  ping yahoo.com
+  286  sudo vi /etc/NetworkManager/NetworkManager.conf 
+  287  service network-manager restart
+  288  sudo vi /etc/NetworkManager/NetworkManager.conf 
+  289  service network-manager restart
+  290  sudo vi /etc/NetworkManager/NetworkManager.conf 
+  291  ifconfig -a
+  292  less /etc/network/interfaces
+  293  vi /etc/network/interfaces
+  294  sudo vi /etc/network/interfaces
+  295  service network-manager restart
+  296  sudo vi /etc/network/interfaces
+  297  service network-manager restart
+  298  sudo vi /etc/network/interfaces
+  299  service network-manager restart
+  300  sudo vi /etc/network/interfaces
+  301  service network-manager restart
+  302  sudo vi /etc/network/interfaces
+  303  service network-manager restart
+  304  sudo vi /etc/network/interfaces
+  305  history
+  306  mkdir ~/tensorflow
+  307  cd ~/tensorflow/
+  308  virtualenv --version
+  309  virtualenv --system-site-packages venv
+  310  sudo apt isntall virtualenv -l
+  311  sudo apt virtualenv -l
+  312  cd
+  313  sudo apt isntall virtualenv
+  314  sudo apt install virtualenv
+  315  cd tensorflow/
+  316  virtualenv --system-site-packages venv
+  317  virtualenv --system-site-packages -p python3
+  318  python --version
+  319  virtualenv --system-site-packages -p python3
+  320  virtualenv --system-site-packages -p python3 venv
+  321  ls
+  322  dhcpcd --version
+  323  route
+  324  ipconfig
+  325  ifconfig
+  326  ifconfig
+  327  route
+  328  cd Downloads/
+  329  unzip ch341ser.zip 
+  330  ls
+  331  ipconfig
+  332  ifconfig
+  333  sudo apt update
+  334  sudo apt upgrade
+  335  git
+  336  git --version
+  337  sudo apt update
+  338  sudo apt upgrade -y
+  339  ip config
+  340  ifconfig
+  341  sudo apt update
+  342  sudo apt upgrade -y
+  343  ls
+  344  sudo apt update
+  345  sudo apt upgrade -y
+  346  exit
+  347  tmux new -s test
+  348  tmux ls
+  349  tmux lsc
+  350  tmux a
+  351  s
+  352  c
+  353  tmux s
+  354  tmux ?
+  355  tmux a
+  356  tmux lsc
+  357  :new-window
+  358  exit
+  359  less ~/ | grep -i *tmux*
+  360  less ~/ | grep -i *tm*
+  361  less ~/ | grep -i *t*
+  362  tmux
+  363  tmux new-session
+  364  tmux list-sessions
+  365  tmux list-client
+  366  tmux attach -t 0
+  367  tmux list-client
+  368  tmux list-sessions
+  369  tmux kill-session 0
+  370  tmux list-sessions
+  371  tmux kill-session -t 0
+  372  tmux list-sessions
+  373  tmux kill-session -t 1
+  374  tmux list-sessions
+  375  tmux attach -t 5
+  376  tmux list-sessions
+  377  :new-window
+  378  tmux list-sessions
+  379  exit
+  380  tmux list-sessions
+  381  :new-window
+  382  tmux list-sessions
+  383  exit
+  384  tmux list-sessions
+  385  exit
+  386  tmux list-sessions
+  387  tmux new-session
+  388  tmux list-sessions
+  389  exit
+  390  tmux list-sessions
+  391  :new-window
+  392  ls
+  393  tmux list-sessions
+  394  tmux kill-session
+  395  tmux list-sessions
+  396  tmux kill-session
+  397  sudo apt update
+  398  sudo apt upgrade -y
+  399  tmux
+  400  sudo apt install tmux
+  401  tmux
+  402  ls
+  403  tmux
+  404  ls ~/
+  405  ls ~/ -la
+  406  ls ~/ -la | less
+  407  ls ~/ -a | less
+  408  sudo apt update
+  409  sudo apt upgrade
+  410  ls ~/ -a | less
+  411  tmux --version
+  412  tmux -version
+  413  tm
+  414  tmux
+  415  tmux new-session
+  416  tmux 
+  417  ls
+  418  tmux
+  419  tmux -h
+  420  man tmux
+  421  ls
+  422  exit
+  423  ls
+  424  b
+  425  exit
+  426  ls
+  427  exit
+  428  adf
+  429  sdf
+  430  exit
+  431  ls
+  432  exit
+  433  ls
+  434  exit
+  435  tmux list-sessions
+  436  exit
+  437  tmux list-sessions
+  438  ls
+  439  exit
+  440  tmux list-sessions
+  441  exit
+  442  ls
+  443  sudo apt update
+  444  sudo apt upgrade -y
+  445  exit
+  446  ls
+  447  vi a.txt
+  448  ls
+  449  ip config
+  450  ipconfig
+  451  ifconfig
+  452  xsel
+  453  exit
+  454  ls
+  455  tmux
+  456  vi ~/.tmux.conf
+  457  sudo apt install xsel
+  458  tmux kill
+  459  tmux kill-server
+  460  ls
+  461  tmux
+  462  xsel --version
+  463  ls ~/.bashrc
+  464  less ~/.bashrc
+  465  vi ~/.bash_profile
+  466  ls
+  467  ls
+  468  tmux
+  469  ls
+  470  tmux
+  471  ls
+  472  w3m
+  473  sudo apt install w3m -l
+  474  sudo apt install w3m
+  475  w3m
+  476  w3m yahoo.co.jp
+  477  ls
+  478  sudo apt install percol
+  479  which percol 
+  480  ls ~ | percol 
+  481  ls ~ | grepp Desktop
+  482  ls ~ | grep Desktop
+  483  ls ~ | percol 
+  484  ls
+  485  ls ~/ | grep tmux
+  486  ls ~/ | grep -i tmux
+  487  ls ~/ | grep -i *tmux*
+  488  find ~/ | grep -i *tmux*
+  489  find ~/ -i *tmux*
+  490  find ~/ *tmux*
+  491  find ~/ tmux
+  492  find -name tmux
+  493  ls
+  494  tmux
+  495  ls
+  496  sudo apt update
+  497  sudo apt upgrade
+  498  ls
+  499  exit
+  500  tmux
+  501  sudo apt update
+  502  sudo apt upgrade -y
+  503  rm r ~/.bash_profile 
+  504  rm ~/.bash_profile 
+  505  vi ~/.bash_profile
+  506  sudo apt update
+  507  sudo apt upgrade
+  508  ls
+  509  vi ~/.bash_profile 
+  510  ssh root@27.120.90.167
+  511  ssh root@27.120.90.167:22
+  512  ssh root@27.120.90.167:8080
+  513  ssh root@27.120.90.167
+  514  ssh root@27.120.90.167 -p 22
+  515  ssh root@27.120.90.167
+  516  exit
+  517  ls
+  518  mkdir_info_of_serverman@vps
+  519  mkdir info_of_serverman@vps
+  520  mv  info of serverman@vps.odt info_of_serverman@vps/
+  521  exit
+  522  ssh root@27.120.90.167
+  523  ssh root@27.120.90.167 -p 22
+  524  ssh root@27.120.90.167 -p 3843
+  525  ls
+  526  ;
+  527  ls
+  528  w3m amazon.co.jp
+  529  git
+  530  git --version
+  531  ls
+  532  cd Documents/
+  533  ls
+  534  tmux
+  535  history | percol
+  536  exit
+  537  exit
+  538  ls
+  539  sudo apt update
+  540  sudo apt upgrade -y
+  541  sudo apt update
+  542  sudo apt upgrade -y
+  543  exit
+  544  ls
+  545  sudo apt update
+  546  sudo apt upgrade
+  547  ls
+  548  ssh root@27.120.90.167 -p 3843
+  549  tmux
+  550  exit
+  551  cd Desktop/github/
+  552  ls
+  553  history | grep ssh
+  554  ssh root@27.120.90.167 -p 3843
+  555  xit
+  556  exit
+  557  ls
+  558  pwd
+  559  cd Documents/
+  560  ls
+  561  cd ..
+  562  find -name inte
+  563  man find
+  564  find -iname intel
+  565  sudo find -iname intel
+  566  man find
+  567  sudo find -name intel
+  568  ls
+  569  cd Documents/
+  570  ls
+  571  jdk --version
+  572  cd
+  573  sudo find jdk
+  574  history | grep jdk
+  575  ls ~/Downloads/
+  576  history | grep jdk-10.0.2_linux-x64
+  577  ls
+  578  cd Documents/
+  579  ls
+  580  cd ..
+  581  ls
+  582  cd files/
+  583  ls
+  584  cp ~/Downloads/jdk-10.0.2_linux-x64_bin.tar.gz ~/files/
+  585  cd ~/files/
+  586  ls
+  587  tar xvzf jdk-10.0.2_linux-x64_bin.tar.gz 
+  588  ls
+  589  tmux
+  590  ls
+  591  tmux
+  592  ls
+  593  youtube-dl
+  594  sudo apt install youtube-dl
+  595  ls
+  596  cd
+  597  s
+  598  cd
+  599  mkdir video
+  600  cd video/
+  601  ls
+  602  pwd
+  603  youtube-dl http://jp.channel.pandora.tv/channel/video.ptv?c1=&ch_userid=haccyan2&prgid=43763910
+  604  ls
+  605  youtube-dl https://www.youtube.com/watch?v=Ge1w49dZjrs
+  606  ls
+  607  man youtube-dl 
+  608  ls
+  609  pwd
+  610  youtube-dl -f mp4 https://www.youtube.com/watch?v=Ge1w49dZjrs
+  611  vcat 
+  612  youtube-dl -f mp4 http://jp.channel.pandora.tv/channel/video.ptv?c1=&ch_userid=haccyan2&prgid=43763910
+  613  ls
+  614  youtube-dl --version
+  615  youtube-dl -f 'mp4 http://jp.channel.pandora.tv/channel/video.ptv?c1=&ch_userid=haccyan2&prgid=43763910'
+  616  youtube-dl -f mp4  'http://jp.channel.pandora.tv/channel/video.ptv?c1=&ch_userid=haccyan2&prgid=43763910'
+  617  youtube-dl 'http://jp.channel.pandora.tv/channel/video.ptv?c1=&ch_userid=haccyan2&prgid=43763910'
+  618  sudo apt install ubuntu-restricted-extras
+  619  sudo apt install libav-tools ffmpeg
+  620  $ sudo apt-get install libav-tools ffmpeg
+  621  sudo apt-get install libav-tools ffmpeg
+  622  youtube-dl -f mp4  'https://www.youtube.com/watch?v=Ge1w49dZjrs'
+  623  youtube-dl -f mp4  'https://www.youtube.com/watch?v=t1VNAa1hUxg'
+  624  youtube-dl -f mp4  'https://www.youtube.com/watch?v=_ykVVkBDwHE'
+  625  youtube-dl -f mp4  'https://www.youtube.com/watch?v=YSoPZjP62cg'
+  626  ls
+  627  sudo apt update
+  628  sudo apt upgrade -y
+  629  history 
+  630  history | less
+  631  history50
+  632  history 50
+  633  ifconfig
+  634  ping yahoo.com
+  635  xdg-open
+  636  xdg
+  637  ls
+  638  ifconfig
+  639  ping yahoo.com
+  640  ls
+  641  xdg-open イマイVS架空請求業者\ リダイヤル男\ 電話をかけまくったイマイに火がついた業者が！\ 相互チャンネル登録-Ge1w49dZjrs.mp4 
+  642  ls
+  643  xdg-open イマイVS架空請求業者\ リダイヤル男\ 電話をかけまくったイマイに火がついた業者が！\ 相互チャンネル登録-Ge1w49dZjrs.mp4 
+  644  ls
+  645  exit[
+  646  exit
+  647  ls
+  648  ifconfig
+  649  ls
+  650  exit
+  651  ls
+  652  sudo apt update
+  653  sudo apt upgrade -y
+  654  tmux
+  655  exit
+  656  ls
+  657  ifconfig
+  658  ping 192.168.24.37
+  659  opencv
+  660  curl --get --include 'https://currencyconverter.p.mashape.com/availablecurrencies'   -H 'X-Mashape-Key: iM0p3hka0bmsht5BxmPWChb6Bh68p1Xq5INjsnnU9n7xUErggB'   -H 'Accept: application/json'
+  661  GEThttps://currencyconverter.p.mashape.com/availablecurrencies
+  662  curl --get --include 'https://currency-exchange.p.mashape.com/exchange?from=SGD&q=1.0&to=MYR'   -H 'X-Mashape-Key: iM0p3hka0bmsht5BxmPWChb6Bh68p1Xq5INjsnnU9n7xUErggB'   -H 'Accept: text/plain'
+  663  ls 
+  664  sudo apt update
+  665  sudo apt upgrade -y
+  666  ls
+  667  sudo apt update
+  668  sudo apt upgrade -y
+  669  ls
+  670  pwd
+  671  cd Desktop/
+  672  ls
+  673  touch update.sh
+  674  vi update.sh 
+  675  sh update.sh 
+  676  sudo apt upgrade -y
+  677  sudo apt update
+  678  sh update.sh 
+  679  exit
+  680  tmux
+  681  exit
+  682  ls
+  683  history | grep open
+  684  cd videos
+  685  cd video/
+  686  ls
+  687  xdg-open イマイシリーズ\ VS\ 振り込め詐欺\ 完全版1\ 相互登録チャンネル-_ykVVkBDwHE.mp4 exit
+  688  exit
+  689  sudo apt update
+  690  sudo apt upgrade -y
+  691  sudo apt update
+  692  sudo apt upgrade -y
+  693  tmux
+  694  exit
+  695  ls
+  696  sudo apt update
+  697  sudo apt upgrade -y
+  698  tmux
+  699  ls
+  700  exit
+  701  tmux
+  702  ls
+  703  exit
+  704  exit
+  705  exit
+  706  ls
+  707  tmux
+  708  history | grep ssh
+  709  ssh root@27.120.90.167 -p 3843
+  710  exit
+  711  exit
+  712  tmux
+  713  exit
+  714  tmux
+  715  history | grep ssh
+  716  ssh root@27.120.90.167 -p 3843
+  717  exit
+  718  exit
+  719  ssh root@27.120.90.167 -p 3843
+  720  :q
+  721  ssh root@27.120.90.167 -p 3843
+  722  exit
+  723  history | grep ssh
+  724  exit
+  725  history | grep ssh
+  726  tmux
+  727  history | grep ssh
+  728  ssh root@27.120.90.167 -p 3843
+  729  exit
+  730  exit
+  731  exit
+  732  exit
+  733  history | grep ssh
+  734  ssh root@27.120.90.167 -p 3843
+  735  ping
+  736  ifconfig
+  737  lspci
+  738  lshw
+  739  exit
+  740  history | grep ssh
+  741  tmux
+  742  exit
+  743  ls
+  744  ld
+  745  ls
+  746  ssh root@27.120.90.167 -p 3843
+  747  exit
+  748  history | grep ssh
+  749  ssh root@27.120.90.167 -p 3843
+  750  exit
+  751  cd /home/toshi/Arduino/
+  752  ls
+  753  cd hardware/
+  754  ls
+  755  cd espressif/
+  756  ls
+  757  cd esp32/
+  758  ls
+  759  cd
+  760  find -iname M5StackUpdater
+  761  find ./ -iname M5StackUpdater
+  762  sudo find ./ -iname M5StackUpdater
+  763  sudo find ./ -iname M5Stack
+  764  ls ./Arduino/libraries/M5Stack/
+  765  ls ./Arduino/libraries/M5Stack/src/
+  766  ls ./Arduino/libraries/M5Stack/
+  767  ls ./Arduino/libraries/M5Stack/src/
+  768  pwd
+  769  ls ./Arduino/libraries/M5Stack/src/sudo apt update
+  770  sudo apt update
+  771  sudo apt upgrade -y
+  772  cd Desktop/github/
+  773  ls
+  774  ls ~/.ssh/id_rsa
+  775  less ~/.ssh/id_rsa
+  776  ls
+  777  git clone git@github.com:Toshi7/luminosity-sensor.git
+  778  ls
+  779  cd luminosity-sensor/
+  780  ls
+  781  vi README.md 
+  782  git status
+  783  git add README.md 
+  784  git commit -m "add README.md"
+  785  git status
+  786  git push origin master 
+  787  git log
+  788  ls
+  789  pwd
+  790  cd ~/Desktop/
+  791  ls
+  792  ls IoT/
+  793  ls platformio/
+  794  find ./ test-pfi
+  795  find ./ -iname test-pfi
+  796  ls ./platformio/m5stack/
+  797  ls ./platformio/m5stack/test-pfi/
+  798  mv ./platformio/m5stack/ ./platformio/esp32
+  799  mv ./platformio/esp32/ ~/Desktop/github/luminosity-sensor/
+  800  ls
+  801  cd platformio/
+  802  ls
+  803  cd ..
+  804  rm -rf platformio/
+  805  cd github/
+  806  ls
+  807  cd luminosity-sensor/
+  808  ls
+  809  cd esp32/
+  810  ls
+  811  cd .
+  812  cd ..
+  813  ls
+  814  git status
+  815  git add esp32/
+  816  git commit -m "add esp32"
+  817  git status
+  818  git push origin master
+  819  ls
+  820  cd esp32/
+  821  ls
+  822  cd test-pfi/
+  823  ls
+  824  vi platformio.ini 
+  825  vi src/main.ino 
+  826  platformio run
+  827  platformio run -t upload
+  828  ls
+  829  vi src/
+  830  ls src/
+  831  ls
+  832  vi src/main.ino 
+  833  platformio run
+  834  platformio --version
+  835  pio lib search SparkFunTSL2561
+  836  pio lib install 603
+  837  platformio run
+  838  platformio run -t upload
+  839  platformio serialports monitor -b 115200
+  840  ls
+  841  vi src/main.ino 
+  842  fg
+  843  ls
+  844  git status
+  845  fg
+  846  vi src/main.ino 
+  847  git status
+  848  ls
+  849  cd src/
+  850  ls
+  851  less main.ino 
+  852  ls
+  853  mkdir old
+  854  ls
+  855  mv main.ino old/
+  856  ls
+  857  cp ~/Desktop/IoT/IoT-FIWARE/arduino/src/Main.ino .
+  858  ls
+  859  platformio run
+  860  ls
+  861  cd ..
+  862  ls
+  863  platformio run
+  864  ls
+  865  vi src/Main.ino 
+  866  platformio run
+  867  pio lib search OneWire.h
+  868  platformio run
+  869  pio lib search header:OneWire.h
+  870  ls
+  871  platformio run
+  872  ls
+  873  vi run_esp32.sh
+  874  ls
+  875  sh run_esp32.sh 
+  876  ;s
+  877  ls
+  878  ls -a
+  879  ls -l
+  880  ls
+  881  ls -l
+  882  chmod 755 platformio.ini 
+  883  ls -l
+  884  chmod 34 platformio.ini 
+  885  chmod 344 platformio.ini 
+  886  ls -l
+  887  less platformio.ini 
+  888  sudo less platformio.ini 
+  889  git status
+  890  ls -l
+  891  git reset --hard
+  892  ls -l
+  893  git status
+  894  history 
+  895  history | less

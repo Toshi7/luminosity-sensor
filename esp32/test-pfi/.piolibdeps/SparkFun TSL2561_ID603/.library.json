@@ -1,0 +1,55 @@
+{
+    "name": "SparkFun TSL2561", 
+    "version": "1.1.0", 
+    "keywords": [
+        "sensors"
+    ], 
+    "description": "An Arduino Library for the <a href=\"https://www.sparkfun.com/products/12055\">TSL2561 Luminosity Sensor Breakout</a> from SparkFun Electronics.", 
+    "frameworks": [
+        "arduino"
+    ], 
+    "platforms": [
+        "atmelavr", 
+        "atmelsam", 
+        "espressif32", 
+        "espressif8266", 
+        "intel_arc32", 
+        "microchippic32", 
+        "nordicnrf51", 
+        "nordicnrf52", 
+        "ststm32", 
+        "teensy", 
+        "timsp430"
+    ], 
+    "authors": [
+        {
+            "email": "techsupport@sparkfun.com", 
+            "url": null, 
+            "maintainer": false, 
+            "name": "Mike Grusin@SparkFun Electronics"
+        }, 
+        {
+            "email": "sparkfun.com", 
+            "url": null, 
+            "maintainer": true, 
+            "name": "SparkFun Electronics"
+        }
+    ], 
+    "repository": {
+        "type": "git", 
+        "url": "https://github.com/sparkfun/SparkFun_TSL2561_Arduino_Library"
+    }, 
+    "homepage": null, 
+    "export": {
+        "include": null, 
+        "exclude": [
+            "extras", 
+            "docs", 
+            "tests", 
+            "test", 
+            "*.doxyfile", 
+            "*.pdf"
+        ]
+    }, 
+    "id": 603
+}
