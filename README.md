@@ -4,6 +4,15 @@
 create platformio environment and use luminosity sensor using it.
 
 ## Installing
+```
+sudo pip install -U platformio
+platformio --version
+pio lib search SparkFunTSL2561
+platformio run -e esp32dev
+pio lib search SparkFunTSL2561
+pio lib install 603
+platformio run -e esp32dev
+```
 
 - checking board definition
 ```
