@@ -30,7 +30,7 @@ platformio run
 
 Upload
 ```
-platformit run -t upload
+platformio run -t upload
 ```
 
 Serial monitor
