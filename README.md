@@ -1,9 +1,9 @@
-# luminosity-sensor
+# Luminosity-sensor
 
-## purpose 
-create platformio environment and use luminosity sensor using it.
+## Purpose 
+Build platformio environment and use luminosity sensor with that.
 
-## Installing
+## Installing platformio & library for SparkFunTSL2561 which is necessary to use TSL2561
 ```
 sudo pip install -U platformio
 platformio --version
@@ -14,7 +14,7 @@ pio lib install 603
 platformio run -e esp32dev
 ```
 
-- checking board definition
+- Checking board definition
 ```
 $ platformio boards
 $ platformio boards esp32
@@ -23,17 +23,17 @@ $ cd test-pfi
 $ platformio init --board esp32doit-devkit-v1
 ```
 
-build
+Build
 ```
 platformio run
 ```
 
-upload
+Upload
 ```
 platformit run -t upload
 ```
 
-serial monitor
+Serial monitor
 ```
 platformio serialports monitor -b 115200
 ```
